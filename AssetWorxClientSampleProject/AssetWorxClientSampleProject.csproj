@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="PubSub" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AssetWorx.Client">
+      <HintPath>AssetWorx.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="AssetWorx.Entities">
+      <HintPath>AssetWorx.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="AssetWorx.Repository.Interface">
+      <HintPath>AssetWorx.Repository.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

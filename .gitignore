@@ -1,0 +1,41 @@
+# Maven
+target/
+dependency-reduced-pom.xml
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# Visual Studio
+bin/
+Debug/
+Release/
+obj/
+.vs/
+*.csproj.user
+packages/
+ipch/
+.suo
+*.VC.db
+*.VC.opendb
+*.tmp_proj
+project.lock.json
+
+# MAC
+.DS_STORE
+
+
+nb-configuration.xml
+atlassian-ide-plugin.xml
+
+logs
